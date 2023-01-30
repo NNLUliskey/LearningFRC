@@ -34,6 +34,16 @@ public final class Constants {
     public static int LEDPort = 0;
   }
 
+  public static final class TowerConstants {
+    
+    public static final int bottomTowerFeedMotorPort = 14;
+    public static final int topTowerFeedMotorPort = 16;
+
+    public static final int bottomTowerSensorPort = 1;
+    public static final int topTowerSensorPort = 0;
+    public static final double towerMotorSpeed = 0.5;
+  }
+
 
   public static final class PathPlannerConstants {
 
